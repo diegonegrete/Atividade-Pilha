@@ -4,12 +4,14 @@ using  namespace std;
 
 #define MAX 30 //Constante para o numero de elementos
 
-struct No { //Criando no para a pilha
+struct No 
+{ //Criando no para a pilha
 	int num;
 	struct No *prox;
 };
 
-struct PilhaEnc { //Criando uma pilha com lista encadeada
+
+	struct PilhaEnc { //Criando uma pilha com lista encadeada
 	No *topo;
 };
 
